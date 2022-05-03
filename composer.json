@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "hzerbini/unit-conversions",
+    "description": "This is my package unit-conversions",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "hzerbini",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/hzerbini/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Henrique Zerbini Junqueira de Assis",
+            "email": "henriquezjassis@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Hzerbini\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Hzerbini\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
